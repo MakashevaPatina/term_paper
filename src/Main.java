@@ -38,7 +38,7 @@ public class Main {
         System.out.println("\nУдаление сотрудника по ID:");
         System.out.println(employeeBook.removeEmployee(6));
         System.out.println("\nПолучение сотрудника по ID:");
-        System.out.println(employeeBook.findEmployeeById(5));
+        System.out.println(employeeBook.findEmployeeById(6));
 
     }
 }

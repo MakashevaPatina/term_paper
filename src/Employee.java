@@ -46,6 +46,10 @@ public class Employee {
         }
     }
 
+    public boolean isInDepartment(int department) {
+        return this.department == department;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
